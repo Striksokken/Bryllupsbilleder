@@ -39,7 +39,7 @@ $allImages = glob("uploads/*.*");
 </head>
 <body>
 <main>
-    <h1>Velkommen til vores bryllupsbillede galleri!!</h1>
+    <h1>Velkommen til vores bryllupsbillede galleri!</h1>
     <p class="subtext"><i>Vi vil meget gerne se de øjeblikke i har fanget fra vores bryllup den 28. september 2024. Del dem med os her. Du kan også se de billeder de andre gæster har taget og delt med os.<br>De kærligste hilsener</i></p>
     <p class="sign">Simone og Jakob</p>
     <div class="flex-container">
