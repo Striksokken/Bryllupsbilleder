@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	Redirect 301 /old-page/ https://portfolio.brodersengugel.dk/
+	Redirect 301 / https://portfolio.brodersengugel.dk/
 </IfModule>
 
 # Tillad alle at tilgå download.php og ZIP-filer
