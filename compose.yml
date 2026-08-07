@@ -1,0 +1,20 @@
+services:
+  gallery:
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    environment:
+      TZ: Europe/Copenhagen
+    volumes:
+      - gallery_uploads:/var/www/html/uploads
+    healthcheck:
+      test: ["CMD", "php", "-r", "exit(@fsockopen('127.0.0.1', 80) ? 0 : 1);"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+volumes:
+  gallery_uploads:
+
