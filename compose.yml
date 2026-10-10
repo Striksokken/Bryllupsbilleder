@@ -3,7 +3,7 @@ services:
     build:
       context: .
     ports:
-      - "8080:80"
+      - "8001:80"
     environment:
       TZ: Europe/Copenhagen
     volumes:
